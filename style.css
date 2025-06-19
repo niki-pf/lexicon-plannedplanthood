@@ -426,7 +426,7 @@ main {
   align-self: start;
   width: 100%;
   max-width: 100%;
-  min-height: fit-content;
+  min-height: 100%;
   height: 550px;
   background-color: white;
   display: flex;
