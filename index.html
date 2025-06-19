@@ -58,12 +58,12 @@
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, corporis ipsum.</p>
     <figure>
       <ul class="gallery-collage">
-        <li><img src="./Assets/images/gallery/flower-portrait.avif" alt=""></li>
-        <li><img src="./Assets/images/gallery/plant - square.jpg" alt=""></li>
-        <li><img src="./Assets/images/gallery/flowers-square.avif" alt=""></li>
-        <li><img src="./Assets/images/gallery/cacti-square.jpg" alt=""></li>
-        <li><img src="./Assets/images/gallery/flowerpot-square.avif" alt=""></li>
-        <li><img src="./Assets/images/gallery/seedlings - square.avif" alt=""></li>
+        <li><img src="./Assets/images/gallery/flower-portrait.avif" alt="Närbild på tre vackra rosa blommor med många gröna blad"></li>
+        <li><img src="./Assets/images/gallery/plant - square.jpg" alt="Närbild på variegerad planta med strora gröna blad i en vävd kruka"></li>
+        <li><img src="./Assets/images/gallery/flowers-square.avif" alt="Närbild på fyra gula tropiska och vackra blommor"></li>
+        <li><img src="./Assets/images/gallery/cacti-square.jpg" alt="En närbild på kaktusar i ett öken landskap"></li>
+        <li><img src="./Assets/images/gallery/flowerpot-square.avif" alt="En ovanifrånbild visar händer som planterar om en grön växt i en kruka, omgivna av jord och verktyg."></li>
+        <li><img src="./Assets/images/gallery/seedlings - square.avif" alt="Tre små plantor står i bruna pappkrukor fyllda med jord."></li>
       </ul>
     </figure>
   </section>
@@ -72,7 +72,8 @@
     <div class="newsletter-form">
       <form class="input-wrapper">
         <h2>Anmäl dig till vårt nyhetsbrev så du inte missar en utsådd!</h2>
-          <input type="email" id="email" name="email" placeholder="email@domain.com"/>
+          <input type="email" id="email" name="email" placeholder="email@domain.com" aria-describedby="email-help"/>
+           <p id="email-help" class="sr-only">Ange en giltig e-postadress.</p>
           <button type="submit" >
           SKICKA
         </button>

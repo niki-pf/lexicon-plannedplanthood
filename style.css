@@ -374,7 +374,7 @@ header nav {
   padding-right: 40px;
   padding-left: 1rem;
   height: 2rem;
-  border: solid 1px var(--clr-neutral-400);
+  border: solid var(--clr-neutral-400) 1px;
   font-size: 1rem;
 }
 
@@ -394,6 +394,13 @@ header nav {
   background-color: white;
   border: solid 1px var(--clr-green-200);
   color: var(--clr-green-200);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
 /*-------------- MAIN ---------------*/
 
@@ -598,6 +605,7 @@ p {
   background-color: white;
   border: solid 1px var(--clr-green-200);
   color: var(--clr-green-200);
+  text-decoration: none;
 }
 
 /*---------------------- FOOTER ----------------------*/
